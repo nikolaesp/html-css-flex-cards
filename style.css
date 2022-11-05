@@ -2,37 +2,29 @@
     box-sizing: border-box;
     font-family: "Fredoka";
     margin: 3% 5%;
-
 }
+
 .body{
     margin: 0px;
-
 }
-.flex-container{
-    
+
+.flex-container{  
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    
-    
 }
 
-.flex-item{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: max-content;
-    overflow: auto;
-}
-div.flex-item{
+/* div.flex-item{
     margin: 0px;
     padding: 0px;
-    
+} */
+
+.flex-item img{
+    flex-grow:0;
+    flex-shrink:0;
 }
 
 .flex-container img{
-    width: 50%;
+    width: 30%;
 }
