@@ -20,10 +20,11 @@
     padding: 0px;
 } */
 .flex-item{
-    background-color: blue;
+    background-color: #0F0E17;
     flex: 1;
     display: inline-flex;
     margin: 20px;
+    color: white;
 }
 .flex-item img{
     margin: 0;
@@ -35,4 +36,8 @@
 .header{
     margin: auto;
     text-align: center;
+}
+
+.email-text-color{
+    color: #75BCB6;
 }
